@@ -124,6 +124,16 @@ body {
     padding: 5px;
     border-bottom: 2px solid blanchedalmond;
 }
+
+.employer-link {
+    /* color: rgb(205,214,249) !important; */
+    color: lightslategray !important;
+    transition: color .30s ease .10s !important;
+}
+
+.employer-link:hover {
+    color: inherit !important;
+}
   
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 48em) {
