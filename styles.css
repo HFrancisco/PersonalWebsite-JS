@@ -2,8 +2,13 @@
 body {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-  }
-  
+}
+
+body, header {
+    background-color: rgb(250, 253, 255);
+    color: rgb(97, 145, 180);
+}
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
@@ -133,6 +138,17 @@ body {
 
 .employer-link:hover {
     color: inherit !important;
+}
+
+.nav-item {
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.nav-item__link {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: inherit;
 }
   
 /* Responsive: Portrait tablets and up */
