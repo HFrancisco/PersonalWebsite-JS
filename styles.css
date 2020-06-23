@@ -5,7 +5,6 @@ body {
 }
 
 body, header {
-    background-color: rgb(250, 253, 255);
     color: rgb(97, 145, 180);
 }
 
@@ -94,7 +93,7 @@ body, header {
 }
 
 .project-section-title {
-    margin: 40px 0px;
+    margin: 20px 0px;
     font-weight: 350;
     letter-spacing: 2px;
     font-size: 1.75em;
