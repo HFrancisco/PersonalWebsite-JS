@@ -16,5 +16,5 @@ document.getElementById('city').innerHTML = locationDict.city;
 document.getElementById('countryIso').innerHTML = locationDict.countryIso;
 
 function redirectToEmployer() {
-    window.location.href = employerDict.link;
+    window.open(employerDict.link, "_blank");
 }
